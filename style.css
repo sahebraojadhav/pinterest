@@ -1,0 +1,61 @@
+html{
+    box-sizing: border-box;
+ }
+
+::after,::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    max-height: 30px;
+    max-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.navbar img{
+    height: 20px;
+    width: 20px;
+}
+
+.input-text{
+    background-color: #E1E1E1;
+    text-indent: 10px;
+    flex-grow: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 3px;
+}
+
+.select{
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: #E1E1E1;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    border-radius: 10px;
+}
+
+h5{
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#All-pins{
+  position: absolute;
+  margin-left: 80%;
+  background-color: #E1E1E1;
+  border: none;
+  margin-right: 10%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: .1rem;
+}
