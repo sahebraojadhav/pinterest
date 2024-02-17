@@ -1,6 +1,5 @@
-
 import example from './obj.js';
-import examples form './obj2.js';
+import examples from './obj2.js';
 
 const image=document.querySelector('.img-placement');
 console.log(image);
