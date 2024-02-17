@@ -3612,7 +3612,4 @@ const obj = {
     request_identifier: "1126157013591993",
 };
 
-module.exports = {
-    obj:obj
-  };
-
+export default obj
