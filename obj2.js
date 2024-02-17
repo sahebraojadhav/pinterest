@@ -1,4 +1,4 @@
-obj2={
+const obj2 = {
     "resource_response": {
     "status": "success",
     "code": 0,
